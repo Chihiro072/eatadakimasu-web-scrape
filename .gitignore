@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Playwright browser binaries
+**/playwright/.cache/
+**/playwright/browsers/
+**/playwright-webkit/
+**/playwright-firefox/
+**/playwright-chromium/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+.history/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Apify stuff
+apify_storage/
+apify_storage_local/
